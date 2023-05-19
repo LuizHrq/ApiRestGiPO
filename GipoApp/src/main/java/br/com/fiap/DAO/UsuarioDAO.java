@@ -17,7 +17,6 @@ public class UsuarioDAO {
 			
 			
 			UsuarioTO uto = new UsuarioTO();
-//			EnderecoTO eto = new EnderecoTO();
 //			
 			//usuario1
 			uto.setIdUsuario(1);
@@ -28,13 +27,6 @@ public class UsuarioDAO {
 			uto.setSenha("123456789");
 			uto.setConfirmaSenha("123456789");
 			
-//			eto.setCep("00001-000");
-//			eto.setRua("Av Paulista");
-//			eto.setNumero("1000");
-//			eto.setCidade("São Paulo");
-//			eto.setEstado("SP");
-//			
-//			uto.setEndereco(eto);
 			listaDeUsuario.add(uto);
 			
 			//usuario2
@@ -46,14 +38,6 @@ public class UsuarioDAO {
 			uto.setEmail("samuel@gmail.com");
 			uto.setSenha("123456789");
 			uto.setConfirmaSenha("123456789");
-			
-//			eto.setCep("00001-000");
-//			eto.setRua("Av Paulista");
-//			eto.setNumero("1000");
-//			eto.setCidade("São Paulo");
-//			eto.setEstado("SP");
-//			
-//			uto.setEndereco(eto);
 			listaDeUsuario.add(uto);
 	
 			//usuario3
@@ -65,14 +49,6 @@ public class UsuarioDAO {
 			uto.setEmail("murilol@gmail.com");
 			uto.setSenha("123456789");
 			uto.setConfirmaSenha("123456789");
-			
-//			eto.setCep("00001-000");
-//			eto.setRua("Av Paulista");
-//			eto.setNumero("1000");
-//			eto.setCidade("São Paulo");
-//			eto.setEstado("SP");
-//			
-//			uto.setEndereco(eto);
 			listaDeUsuario.add(uto);
 			
 			//usuario2
@@ -85,14 +61,6 @@ public class UsuarioDAO {
 			uto.setCpf("444.444.444-44");
 			uto.setSenha("123456789");
 			uto.setConfirmaSenha("123456789");
-			
-//			eto.setCep("00001-000");
-//			eto.setRua("Av Paulista");
-//			eto.setNumero("1000");
-//			eto.setCidade("São Paulo");
-//			eto.setEstado("SP");
-//			
-//			uto.setEndereco(eto);
 			listaDeUsuario.add(uto);
 		}
 	}
